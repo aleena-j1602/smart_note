@@ -1,20 +1,61 @@
-<<<<<<< HEAD
-# Smart-Note
-=======
-# React + Vite
+# 🧠 Smart Notes — AI-Powered Note Taking App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern note-taking web app built with React, Supabase, and Groq AI.  
+Capture thoughts, search instantly, and interact with your notes using AI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 📝 Notes Management
+- Create, update, and delete notes
+- Add tags for better organization
+- Clean and minimal UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎙 Voice Notes
+- Convert speech → text using browser speech recognition
+- Quickly capture ideas without typing
 
-## Expanding the ESLint configuration
+### 🔍 Smart Search
+- Search notes by title or content
+- Fast and responsive filtering
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> b464f54 (Initial commit)
+### 🤖 AI Chatbot (Groq)
+- Ask questions about your notes
+- Get summaries and insights
+- Context-aware responses using your stored notes
+
+### 🔐 Authentication
+- Secure login/signup using Supabase
+- User-specific notes (privacy ensured)
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React + Vite
+- **Backend:** Supabase (Database + Auth)
+- **AI:** Groq API (LLaMA models)
+- **Styling:** Custom CSS
+
+---
+
+## 📂 Project Structure
+src/ 
+├── Auth.jsx
+├── AddNote.jsx 
+├── SearchNotes.jsx 
+├── UpdateNotes.jsx 
+├── Chatbot.jsx 
+├── supabaseClient.js 
+├── App.jsx 
+└── main.jsx
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/smart-notes.git
+cd smart-notes
